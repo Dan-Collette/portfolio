@@ -1,0 +1,310 @@
+header {
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+}
+
+@media (min-width: 320px) {
+  .btn {
+    background-color: #ffbf5d;
+    border: 1px solid #ffbf5d;
+    color: #000;
+  }
+  .btn:focus {
+    background-color: #000000;
+    color: #ffbf5d;
+    border: 1px solid #ffbf5d;
+  }
+  .btn:hover {
+    background-color: #000000;
+    color: #ffbf5d;
+    border: 1px solid #ffbf5d;
+  }
+  .navbar {
+    background-color: #000;
+  }
+  .navbar-toggler {
+    background-color: #ffbf5d;
+  }
+  .navbar-collapse {
+    color: #fff;
+  }
+  .nav-link {
+    color: #fff;
+  }
+  .nav-link:hover {
+    color: #ffbf5d;
+  }
+  #nav-pweb-link {
+    display: none;
+  }
+  .landing-text {
+    height: 50vh;
+    color: #fff;
+    text-align: center;
+  }
+  .landing-text h2 {
+    font-size: medium;
+  }
+  .landing-img {
+    background-image: url("../imgs/heros/Highline.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 50vh; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    overflow: hidden;
+    padding: 0;
+  }
+  #header-logo {
+    width: auto;
+    height: 125px;
+  }
+  .blur {
+    background: #ffbe5d2e;
+    backdrop-filter: blur(3px);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .row-title {
+    margin-top: 2rem;
+    margin-bottom: 0.25rem;
+  }
+  .projects-mobile {
+    padding: 10px;
+  }
+  .projects-web {
+    display: none;
+  }
+  .card {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  .card-img-top {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    object-position: top;
+  }
+  .card-footer {
+    padding: 0;
+    background-color: transparent;
+    border-top: none;
+  }
+  .contact {
+    background-color: #000000;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .form-inputs {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+  }
+  label {
+    color: #fff;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 0;
+  }
+
+  input {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin: 0;
+  }
+  input:focus {
+    border: #ffbf5d;
+    background-color: #fff;
+  }
+  textarea {
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+  }
+  #error {
+    color: #ffbf5d;
+    font-size: larger;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  #success {
+    color: #fff;
+    font-size: larger;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  footer {
+    background-color: #ffbf5d;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .landing-text {
+    height: 100vh;
+  }
+  .landing-img {
+    background-image: url("../imgs/heros/Highline.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 100vh; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  #header-logo {
+    width: auto;
+    height: 175px;
+  }
+  .projects-mobile {
+    padding: 2rem;
+  }
+  .card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+  }
+}
+
+@media (min-width: 1200px) {
+  #nav-pmobile-link {
+    display: none;
+  }
+  #nav-pweb-link {
+    display: inherit;
+  }
+  #header-logo {
+    width: auto;
+    height: 200px;
+  }
+  .landing-text h1 {
+    font-weight: 700;
+    padding-bottom: 0.25rem;
+  }
+  .landing-text h2 {
+    font-size: larger;
+    padding-bottom: 1.5rem;
+  }
+  .row-title {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  .projects-mobile {
+    display: none;
+  }
+  .projects-web {
+    display: inherit;
+    padding: 5rem;
+  }
+  .card {
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.46) 3px 5px 12px;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    height: 400px;
+    position: relative;
+  }
+  #tzt {
+    background-image: url("../imgs/project-imgs/trumping-zero-tolerance.png");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    overflow: hidden;
+  }
+  #mmee {
+    background-image: url("../imgs/project-imgs/mmee.png");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    overflow: hidden;
+  }
+  #final-project {
+    background-image: url("../imgs/project-imgs/web-final.png");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    overflow: hidden;
+  }
+  #typeface {
+    background-image: url("../imgs/project-imgs/type-layout.png");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    overflow: hidden;
+  }
+  #designer {
+    background-image: url("../imgs/project-imgs/designer.png");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    overflow: hidden;
+  }
+  #news {
+    background-image: url("../imgs/project-imgs/news.png");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    overflow: hidden;
+  }
+  .card-footer {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+  }
+  .image {
+    padding: 50px;
+  }
+  .content {
+    background-color: #000000d5;
+    backdrop-filter: blur(4px);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  .project-title h3 {
+    color: #fff;
+    padding: 15px;
+    margin: 0;
+  }
+  .desc {
+    color: #fff;
+    max-height: 0;
+    transition: all 1.5s ease;
+  }
+  .desc p {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .card:hover .desc {
+    max-height: 500px;
+  }
+  .contact {
+    padding: 3rem;
+  }
+}
