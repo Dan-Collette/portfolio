@@ -21,7 +21,7 @@
   <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#top-of-pg">
+        <a class="navbar-brand" href="/index.html">
           <img
             src="imgs/logo/logo-white.png"
             alt=""
@@ -30,44 +30,26 @@
             class="d-inline-block align-text-top"
           />
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="#top-of-pg"
-              >Home</a
-            >
-            <a class="nav-link" id="nav-pmobile-link" href="#projects-sec-mobile">Projects</a>
-            <a class="nav-link" id="nav-pweb-link" href="#projects-sec-web">Projects</a>
-            <a class="nav-link" href="#contact-sec">Contact</a>
-          </div>
+        <div class="navbar-nav flex-row">
+          <a class="nav-link p-2 active" href="/index.html">Home</a>
+          <a class="nav-link p-2" href="/about.html">About</a>
+          <a class="nav-link p-2" aria-current="page" href="/tutti.html"
+            >Tutti</a
+          >
         </div>
       </div>
     </nav>
+    <!-- Header Section -->
     <header id="top-of-pg">
       <div class="container-fluid">
         <div class="row">
           <div
-            class="
-              col-md-6
-              landing-text
-              d-flex
-              justify-content-center
-              flex-column
-              align-items-center
-            "
+            class="col-md-6 landing-text d-flex justify-content-center flex-column align-items-center"
           >
             <h1>Welcome To My Website</h1>
-            <h2>Lets Create Something <span style="color: #ffbf5d;">Great!</span></h2>
+            <h2>
+              Lets Create Something <span style="color: #ffbf5d">Great!</span>
+            </h2>
             <a
               href="#contact-sec"
               class="btn btn-primary btn-lg"
@@ -90,6 +72,7 @@
       </div>
     </header>
     <main>
+      <!-- Projects Setion Mobile -->
       <section class="projects-mobile" id="projects-sec-mobile">
         <div class="container">
           <div class="row">
@@ -99,6 +82,7 @@
             <div class="row row-title">
               <div class="col">
                 <h3>Web Development</h3>
+                <h4>Projects consist of websites developed for clients and courses</h4>
               </div>
           </div>
           <div class="row d-flex justify-content-center align-items-center">
@@ -184,6 +168,7 @@
             <div class="row row-title">
               <div class="col">
                 <h3>UX Design</h3>
+                <h4>Projects consist of flat design layouts for projects from various courses</h4>
               </div>
           </div>
           <div class="row d-flex justify-content-center">
@@ -271,6 +256,8 @@
           </div>
         </div>
       </section>
+
+      <!-- Projects Section Web  -->
       <section class="projects-web" id="projects-sec-web">
         <div class="container">
           <div class="row">

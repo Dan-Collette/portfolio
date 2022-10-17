@@ -4,7 +4,50 @@ header {
   background-color: #000000;
 }
 
+/* .about-landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.about-image {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.tutti-landing {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121212;
+}
+.xd-btn {
+  margin: auto;
+  background-color: #CA0CF9!important;
+  border: 1px solid #CA0CF9!important;
+  color: #FFFFFF!important;
+}
+.links-bkg {
+  background-color: #121212/* 1D1D1D */;
+}
+.process-img {
+  width: 100%;
+}
+.sketch-img {
+  width: 100%;
+}
+.secondary-img {
+  width: 35%;
+  height: auto;
+}
 @media (min-width: 320px) {
+  .tutti-logo {
+    width: auto;
+    height: 75px;
+  }
   .btn {
     background-color: #ffbf5d;
     border: 1px solid #ffbf5d;
@@ -152,12 +195,31 @@ header {
   footer {
     background-color: #ffbf5d;
     padding: 1rem;
-    display: flex;
-    justify-content: center;
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  .abt-footer {
+    background-color: #ffbf5d;
+    padding: 1rem;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
   }
 }
 
 @media (min-width: 768px) {
+  .tutti-logo {
+    width: auto;
+    height: 100px;
+  }
+  .process-img {
+    width: 60%;
+  }
+  .sketch-img {
+    width: 60%;
+  }
   .landing-text {
     height: 100vh;
   }
